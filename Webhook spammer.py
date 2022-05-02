@@ -13,14 +13,14 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def send_message(webhook_url):
-    username = id_generator()
-    message = "@everyone " + id_generator(1900)
-    avatar = "https://picsum.photos/id/{}/200".format(random.randint(1, 500))
+    username = "chillency's spammer"
+    message = "@everyone get spammed by chillency's webhook spammer lmao. https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E "
+    avatar = "https://cdn.discordapp.com/icons/970593154371829761/e7b8da06f3ca9850c426dd3529237bee.webp?size=56".format(random.randint(1, 500))
     data = json.dumps({
         "content": message,
         "username": username,
         "avatar_url": avatar,
-        "tts": True
+        "tts": False
     })
 
     header = {
