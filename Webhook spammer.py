@@ -20,7 +20,7 @@ def send_message(webhook_url):
         "content": message,
         "username": username,
         "avatar_url": avatar,
-        "tts": True
+        "tts": false
     })
 
     header = {
