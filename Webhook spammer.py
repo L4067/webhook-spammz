@@ -14,7 +14,7 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
 
 def send_message(webhook_url):
     username = "chillency's spammer"
-    message = "@everyone get spammed by chillency's webhook spammer lmao. https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E https://discord.gg/BnDDnKse6E "
+    message = "@everyone get spammed by æœ#4067 lmao. https://discord.gg/BmXZd3jW https://discord.gg/BmXZd3jW https://discord.gg/BmXZd3jW "
     avatar = "https://cdn.discordapp.com/icons/970593154371829761/e7b8da06f3ca9850c426dd3529237bee.webp?size=56".format(random.randint(1, 500))
     data = json.dumps({
         "content": message,
@@ -41,7 +41,7 @@ def send_message(webhook_url):
     else:
         print("S̶e̶n̶d̶i̶n̶g̶ M̶e̶s̶s̶a̶g̶e̶s̶!̶")
         return True
-print ("m̶a̶d̶e̶ b̶y̶ c̶h̶i̶l̶l̶e̶n̶c̶y̶#̶0̶6̶3̶7̶")
+print ("made by æœ#4067")
 webhook = input("W̶e̶b̶h̶o̶o̶k̶ U̶R̶L̶: ")
 attempt_count = 0
 sent_count = 0
