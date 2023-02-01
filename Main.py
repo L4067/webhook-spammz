@@ -13,14 +13,14 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 def send_message(webhook_url):
-    username = "-"
-    message = "@everyone get spammed by æœ#4067 lmao. https://discord.gg/BmXZd3jW https://discord.gg/BmXZd3jW https://discord.gg/BmXZd3jW "
-    avatar = "".format(random.randint(1, 500))
+    username = "STAN MARSH"
+    message = "@everyone https://discord.gg/BmXZd3jW "
+    avatar = "https://cdn.discordapp.com/attachments/1070252698437439539/1070314516371476501/IMG_1677.jpg".format(random.randint(1, 500))
     data = json.dumps({
         "content": message,
         "username": username,
         "avatar_url": avatar,
-        "tts": false
+        "tts":False
     })
 
     header = {
@@ -39,19 +39,18 @@ def send_message(webhook_url):
             print(response.text)
         return False
     else:
-        print("S̶e̶n̶d̶i̶n̶g̶ M̶e̶s̶s̶a̶g̶e̶s̶!̶")
-        return True
-print ("made by æœ#4067")
-webhook = input("W̶e̶b̶h̶o̶o̶k̶ U̶R̶L̶: ")
+      print ("sent message")
+      return True
+webhook =("https://discord.com/api/webhooks/1070309832520896613/1Hq96T4oWTQasl6apEuZYz7gMSCxafzB-hQC05R3hpEUNn3aOm8JItYcucp9GHn2YkAA")
 attempt_count = 0
 sent_count = 0
 
-print("S̶p̶a̶m̶m̶i̶n̶g̶ t̶h̶e̶ w̶e̶b̶h̶o̶o̶k̶!̶ P̶r̶e̶s̶s̶ C̶T̶R̶L̶+̶C̶ t̶o̶ s̶t̶o̶p̶!̶")
 sleep(1)
 
 failed_previous = False
 
 try:
+  
     while True:
         if (send_message(webhook)):
             sent_count += 1
