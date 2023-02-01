@@ -41,7 +41,7 @@ def send_message(webhook_url):
     else:
       print ("sent message")
       return True
-webhook =("https://discord.com/api/webhooks/1070309832520896613/1Hq96T4oWTQasl6apEuZYz7gMSCxafzB-hQC05R3hpEUNn3aOm8JItYcucp9GHn2YkAA")
+webhook =("ENTER THE WEBHOOK HERE")
 attempt_count = 0
 sent_count = 0
 
